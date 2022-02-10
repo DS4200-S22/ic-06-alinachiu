@@ -1,0 +1,13 @@
+.body {
+    font-family: Arial;
+}
+
+#circle {
+    fill: blue;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

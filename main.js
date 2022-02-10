@@ -11,4 +11,15 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+    let random = Math.floor(Math.random() * 100);
+    document.getElementById('random_num').innerHTML = random;
+}
+
+function button2Clicked() {
+    let currFill = document.getElementById("circle").style.fill;
+    if (currFill === "blue") {
+        document.getElementById("circle").style.fill = "green";
+    } else {
+        document.getElementById("circle").style.fill = "blue";
+    }
 }
